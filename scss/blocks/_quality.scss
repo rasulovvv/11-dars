@@ -1,0 +1,282 @@
+.quality{
+  margin-bottom: 168px;
+}
+
+.quality__box{
+  position: relative;
+  z-index: 1;
+  display: block;
+  padding: 88px 0 176px 85px;
+  background: #2C343E;
+  border-radius: 10px;
+  
+}
+
+
+
+.quality__heading{
+  max-width: 517px;
+}
+
+.quality__title{
+  font-family: "Fraunces", "Times New Roman", serif;
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.quality__summary{
+  max-width: 540px;
+}
+
+.quality__text{
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+
+
+.quality__img{
+  position: absolute;
+  z-index: 2;
+  width: 445px;
+  height: 474px;
+  border-radius: 8px;
+  bottom: 88px;
+  right: 85px;
+}
+
+
+@media only screen and (max-width:1195px){
+  
+  .quality__box{
+    
+    padding: 250px 74px 67px;
+    background: #2C343E;
+    border-radius: 10px;
+    
+  }
+
+  .quality__heading{
+    margin: 0 auto;
+  }
+
+  .quality__summary{
+    margin: 0 auto;
+  }
+
+  .quality__text{
+    text-align: center;
+  }
+
+  .quality__img{
+    width: 100%;
+    max-width: 574px;
+    height: 320px;
+    top: -160px;
+    right: 215px;
+    object-position: bottom;
+  }
+
+
+}
+
+
+@media only screen and (max-width:769px){
+  
+  .quality__box{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 224px 74px 67px;
+    background: #2C343E;
+    border-radius: 10px;
+    
+  }
+  
+  .quality__heading{
+    max-width: 413px;
+    margin: 0 auto;
+  }
+  
+  .quality__title{
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+  }
+  
+  .quality__summary{
+    max-width: 540px;
+  }
+  
+  .quality__text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .quality__img{
+    width: 100%;
+    max-width: 573px;
+    height: 320px;
+    top: -160px;
+    right: 58px;
+    object-position: bottom;
+  }
+  
+}
+
+@media only screen and (max-width:426px){
+
+  .quality{
+    margin-bottom: 130px;
+  }
+
+  .quality__box{
+    padding: 142px 30px 64px;
+    background: #2C343E;
+    border-radius: 10px;
+    
+  }
+  
+  .quality__heading{
+    max-width: 279px;
+    margin: 0 auto;
+  }
+  
+  .quality__title{
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .quality__summary{
+    max-width: 324px;
+  }
+  
+  .quality__text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  
+  
+  .quality__img{
+    width: 100%;
+    max-width: 324px;
+    object-position: bottom;
+    height: 200px;
+    top: -100px;
+    left: calc(50% + -160px)
+  }
+
+
+
+
+}
+
+@media only screen and (max-width:376px){
+
+  .quality{
+    margin-bottom: 120px;
+  }
+
+  .quality__box{
+    padding: 142px 24px 64px;
+    background: #2C343E;
+    border-radius: 10px;
+    
+  }
+  
+  .quality__heading{
+    max-width: 279px;
+    margin: 0 auto;
+  }
+  
+  .quality__title{
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .quality__summary{
+    max-width: 279px;
+  }
+  
+  .quality__text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  
+  
+  .quality__img{
+    width: 100%;
+    max-width: 279px;
+    height: 156px;
+    object-position: bottom;
+    top: calc( 50% + -325px);
+    left: calc(50% + -140px)
+  }
+
+}
+
+
+
+
+@media only screen and (max-width:320px){
+
+  .quality__box{
+    padding: 130px 12px 64px;
+    background: #2C343E;
+    border-radius: 10px;
+    
+  }
+  
+  .quality__heading{
+    max-width: 279px;
+    margin: 0 auto;
+  }
+  
+  .quality__title{
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .quality__summary{
+    max-width: 279px;
+  }
+  
+  .quality__text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  
+  
+  .quality__img{
+    width: 100%;
+    max-width: 256px;
+    height: 156px;
+    top: calc(50% + -350px);
+    left: calc(50% + -128px);
+  }
+
+}

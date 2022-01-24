@@ -1,0 +1,163 @@
+.header{
+  padding-top: 45px;
+}
+
+.header__elements{
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+  
+}
+
+.header__link{
+  text-decoration: none;
+  margin-right: auto;
+}
+
+.header__img{
+  width: 236px;
+  height: 26px;
+}
+
+.navbar__list{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar__item--active{
+  margin: 0 33px;
+}
+
+.navbar__link{
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  color: #83888F;
+}
+
+.navbar__link:hover{
+  color: #333D4B;
+}
+
+.header__hamburg-btn{
+  display: none;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+@media only screen and (max-width:768px) {
+  
+  .header{
+    padding-top: 40px ;
+  }
+  
+  .header__elements{
+    margin-bottom: 53px;
+  }
+  
+  .header__img{
+    width: 236px;
+    height: 26px;
+  }
+}
+
+
+@media only screen and (max-width:600px){
+
+  .header{
+    padding-top: 32px ;
+    position: relative;
+    z-index: 1;
+  }
+
+  .header__elements{
+    margin-bottom: 40px;
+  }
+
+  .header__img{
+    width: 200px;
+    height: 22px;
+  }
+
+  .header--open .navbar__list{
+    display: block;
+  }
+
+  
+
+ .navbar__list{
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 66px;
+  right: 0;
+  flex-direction: column;
+  background-color: #fff;
+ }
+
+ .navbar__item--active{
+   margin-left: 0;
+ }
+
+ .header__hamburg-btn{
+  display: block;
+ }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width:375px){
+
+  .header{
+    position: relative;
+    z-index: 1;
+    padding-top: 32px ;
+  }
+
+  .header__elements{
+    margin-bottom: 40px;
+  }
+
+  .header__img{
+    width: 163px;
+    height: 18px;
+  }
+
+  .header--open .navbar__list{
+    display: block;
+  }
+
+  
+
+ .navbar__list{
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 66px;
+  right: 0;
+  flex-direction: column;
+  background-color: #fff;
+ }
+
+ .navbar__item--active{
+   margin-left: 0;
+ }
+
+ .header__hamburg-btn{
+  display: block;
+ }
+
+
+
+}
